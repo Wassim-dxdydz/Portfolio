@@ -32,7 +32,6 @@ export default function HeroAvatar() {
     <div className="flex justify-center md:justify-start">
       <div className="relative w-80 h-80 md:w-[360px] md:h-[360px]">
 
-        {/* Orbit 1 */}
         <OrbitRing
           insetClass="-inset-6"
           borderClass="border border-emerald-400/20"
@@ -41,7 +40,6 @@ export default function HeroAvatar() {
           <OrbitItems items={orbit1} />
         </OrbitRing>
 
-        {/* Orbit 2 */}
         <OrbitRing
         insetClass="-inset-16"
         borderClass="border border-emerald-400/10 [border-style:dashed]"
@@ -51,7 +49,6 @@ export default function HeroAvatar() {
         <OrbitItems items={orbit2} />
         </OrbitRing>
 
-        {/* Orbit 3 */}
         <OrbitRing
           insetClass="-inset-28"
           borderClass="border border-emerald-400/10"
@@ -60,7 +57,6 @@ export default function HeroAvatar() {
           <OrbitItems items={orbit3} />
         </OrbitRing>
 
-        {/* Bigger Image */}
         <div className="absolute inset-6 rounded-full overflow-hidden border border-white/10 bg-zinc-900">
           <img
             src="/profile.jpg"
