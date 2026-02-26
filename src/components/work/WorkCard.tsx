@@ -67,9 +67,14 @@ export default function WorkCard({ item }: { item: WorkItem }) {
                   ) : null}
                 </div>
                 {item.zip ? (
-                  <Button asChild size="sm" variant="secondary" className="rounded-full bg-zinc-900/60 border border-white/10 h-7 text-xs px-3 ml-auto shrink-0">
-                    <a href={item.zip} download>↓ Download ZIP</a>
-                  </Button>
+                  <div className="flex flex-col items-end gap-1 ml-auto shrink-0">
+                    <Button asChild size="sm" variant="secondary" className="rounded-full bg-zinc-900/60 border border-white/10 h-7 text-xs px-3">
+                      <a href={item.zip} download>↓ Download ZIP</a>
+                    </Button>
+                    <p className="text-white/30 text-[10px] text-right">
+                    The app is unlicensed but safe to use.
+                    </p>
+                  </div>
                 ) : null}
               </div>
             </div>

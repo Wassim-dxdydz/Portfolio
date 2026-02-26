@@ -70,9 +70,14 @@ export default function WorkRow({ item }: { item: WorkItem }) {
                         ) : null}
                       </div>
                       {item.zip ? (
-                        <Button asChild variant="secondary" className="rounded-full bg-zinc-900/60 border border-white/10 ml-auto">
-                          <a href={item.zip} download>↓ Download ZIP</a>
-                        </Button>
+                        <div className="flex flex-col items-end gap-1">
+                          <Button asChild variant="secondary" className="rounded-full bg-zinc-900/60 border border-white/10 ml-auto">
+                            <a href={item.zip} download>↓ Download ZIP</a>
+                          </Button>
+                          <p className="text-white/30 text-[12px] text-right">
+                          Warnings are expected — the app is unlicensed but safe to use.
+                          </p>
+                        </div>
                       ) : null}
                     </div>
                   </div>
