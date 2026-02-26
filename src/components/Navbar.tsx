@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import HireMeModal from "./HireMeModal";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -15,12 +16,10 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-        {/* Name */}
         <Link href="/" className="font-display text-xl">
           Wassim<span className="text-emerald-400">.</span>
         </Link>
 
-        {/* Navigation */}
         <nav className="hidden md:flex items-center gap-24 text-sm">
           {navItems.map((item) => {
             const isActive = pathname === item.href;
@@ -44,13 +43,7 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* Hire Me Button */}
-        <Link
-          href="/contact"
-          className="rounded-full bg-emerald-400 px-5 py-2 text-sm font-semibold text-black hover:bg-emerald-300 transition"
-        >
-          Hire me
-        </Link>
+        <HireMeModal />
       </div>
     </header>
   );

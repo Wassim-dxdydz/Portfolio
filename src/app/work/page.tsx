@@ -9,7 +9,7 @@ import { LayoutGrid, List } from "lucide-react";
 
 
 export default function WorkPage() {
-  const [view, setView] = useState<"grid" | "list">("grid");
+  const [view, setView] = useState<"grid" | "list">("list");
 
   return (
     <div className="mx-auto max-w-6xl px-6 md:px-10 py-16">
