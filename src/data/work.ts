@@ -70,7 +70,7 @@ export const workItems: WorkItem[] = [
     stack: ["Python"],
     tools: ["Qt", "OpenCV", "FFmpeg", "NumPy", "Docker", "CI/CD"],
     github: { visibility: "public", url: "https://github.com/Wassim-dxdydz/Video-tool" },
-    zip: "/zips/zebra-tool.zip",
+    zip: "https://github.com/Wassim-dxdydz/Video-tool/releases/download/v1.0.0/ZebraVideoTool-windows.zip",
   },
 
 
@@ -104,7 +104,7 @@ export const workItems: WorkItem[] = [
     stack: ["Python"],
     tools: ["Anaconda", "Spyder", "tkinter", "NumPy", "Pandas", "Matplotlib", "Plotly", "CI/CD"],
     github: { visibility: "public", url: "https://github.com/Wassim-dxdydz/Covid-19-TkinterApp" },
-    zip: "/zips/covid19-analysis.zip",
+    zip: "https://github.com/Wassim-dxdydz/Covid-19-TkinterApp/releases/download/v1.0.6/covid_analysis-windows.zip",
   },
   
   {
@@ -122,7 +122,7 @@ export const workItems: WorkItem[] = [
     stack: ["Python"],
     tools: ["Anaconda", "Spyder", "tkinter", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Plotly", "CI/CD"],
     github: { visibility: "public", url: "https://github.com/Wassim-dxdydz/Income_predictor" },
-    zip: "/zips/income-prediction.zip",
+    zip: "https://github.com/Wassim-dxdydz/Income_predictor/releases/download/v1.0.8/income_predictor-windows.zip",
   },
 
 
@@ -190,8 +190,8 @@ export const workItems: WorkItem[] = [
       { src: "/work/Symmetry3.png", alt: "Symmetry level progression" },
     ],
     stack: ["Javascript", "Electron", "React"],
-    github: { visibility: "public", url: "YOUR_GITHUB_LINK_HERE" },
-    zip: "/zips/symmetry-app.zip",
+    github: { visibility: "public", url: "https://github.com/SalahDevp/projet-2cp-eq18" },
+    zip: "https://github.com/Wassim-dxdydz/Portfolio/releases/download/v1.0/symmetry-app.zip",
   },
   
   {
