@@ -25,8 +25,8 @@ export const workItems: WorkItem[] = [
     title: "Airport Information System",
     description:
       "Three-tier web application for airport management built with Kotlin (Spring Boot), PostgreSQL and Next.js. Developed with incremental iterations and continuous code quality monitoring using SonarQube.",
-    start: "2025-01",
-    end: "2025-12",
+    start: "2025-12",
+    end: "2026-02",
     images: [
       { src: "/work/Airport1.png", alt: "Airport Landing page" },
       { src: "/work/Airport2.png", alt: "Airport flight management" },
@@ -148,8 +148,8 @@ export const workItems: WorkItem[] = [
     title: "Algeria Tourism Web Platform",
     description:
       "Interactive tourism website featuring map-based navigation of tourist locations and events across Algeria.",
-    start: "2023-01",
-    end: "2023-06",
+    start: "2023-03",
+    end: "2023-07",
     images: [
       { src: "/work/Tourism1.png", alt: "Tourism map interface" },
       { src: "/work/Tourism2.png", alt: "Tourism location details" },
@@ -165,8 +165,8 @@ export const workItems: WorkItem[] = [
     title: "Real Estate Listings Platform",
     description:
       "Web platform for posting and browsing real estate listings with integrated web scraping and filtering features.",
-    start: "2023-06",
-    end: "2023-12",
+    start: "2023-01",
+    end: "2023-03",
     images: [
       { src: "/work/Realestate1.png", alt: "Real estate listings UI" },
       { src: "/work/Realestate2.png", alt: "Real estate listing details" },
@@ -199,8 +199,8 @@ export const workItems: WorkItem[] = [
     title: "Medical Data ETL Pipeline",
     description:
       "Design and implementation of an ETL pipeline using Pentaho. Extraction, cleaning, transformation and loading into a data warehouse with reporting layer.",
-    start: "2024-01",
-    end: "2024-03",
+    start: "2024-03",
+    end: "2024-04",
     images: [
       { src: "/work/etl.png", alt: "ETL pipeline workflow" },
     ],
