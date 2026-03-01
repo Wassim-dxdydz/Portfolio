@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my projects, skills, and experience as a full-stack developer with a strong interest in data and business intelligence.
 
-🌐 **Live:** [https://wassim.dev](https://wassim.dev)
+🌐 **Live:** [https://wassimabahri.dev](https://www.wassimabahri.dev/)
 
 ---
 
