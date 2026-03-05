@@ -24,7 +24,6 @@ import {
   SiJupyter,
   SiScikitlearn,
   SiKotlin,
-  SiAngular,
   SiJavascript,
 } from "react-icons/si";
 import { FaLinux, FaFlask, FaJava } from "react-icons/fa";
