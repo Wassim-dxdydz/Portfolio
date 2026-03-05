@@ -85,7 +85,7 @@ export const workItems: WorkItem[] = [
       { src: "/work/Mlapp.png", alt: "ML prediction interface" },
     ],
     stack: ["Python", "Django", "JavaScript", "HTML", "CSS"],
-    tools: ["NumPy", "SciPy", "Matplotlib", "Plotly"],
+    tools: ["NumPy", "SciPy"],
     github: { visibility: "public", url: "https://github.com/Wassim-dxdydz/ML-webapp" },
   },
   
