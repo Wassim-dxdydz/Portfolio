@@ -156,7 +156,7 @@ export const workItems: WorkItem[] = [
       { src: "/work/Tourism3.png", alt: "Tourism event details" },
     ],
     stack: ["React", "Node.js", "PostgreSQL"],
-    tools: ["Leaflet", "Figma"],
+    tools: ["Leaflet"],
   },
 
 
@@ -173,7 +173,7 @@ export const workItems: WorkItem[] = [
       { src: "/work/Realestate3.png", alt: "Real estate search filters" },
     ],
     stack: ["React", "Django", "PostgreSQL"],
-    tools: ["Web Scraping", "Figma"],
+    tools: ["Web Scraping"],
   },
 
 
