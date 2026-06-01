@@ -24,14 +24,14 @@ const contacts = [
   {
     icon: FaGithub,
     label: "GitHub",
-    value: "github.com/Wassim-dxdydz",
+    value: "Wassim-dxdydz",
     href: "https://github.com/Wassim-dxdydz",
   },
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/wassim-abahri",
-    href: "https://www.linkedin.com/in/wassim-abahri",
+    value: "Wassim ABAHRI",
+    href: "https://www.linkedin.com/in/wassim-abahri-91ba98284/",
   },
 ];
 
