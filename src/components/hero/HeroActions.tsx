@@ -13,7 +13,7 @@ export default function HeroActions() {
         variant="outline"
         className="rounded-full border-white/15 text-white hover:bg-white/5 hover:text-white"
       >
-        <a href="/cv.pdf" download>
+        <a href="/ABAHRI_Wassim_CV.pdf" download>
           Download CV
         </a>
       </Button>
